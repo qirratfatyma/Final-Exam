@@ -27,9 +27,10 @@ const Herosection = () => {
             </div>
             <div className="video-container">
       <div className="play-button">
-        <span className="play-icon"></span>
+        <span className="play-icon"></span>      
+      <br></br>
       </div>
-      <img src="imgi" alt="midimage"/>
+      <img src={imgi} alt="midimage" className="imgi-size"/>
     </div>
         </div>
       </section>
