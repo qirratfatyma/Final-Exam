@@ -294,6 +294,25 @@ form {
   color: white;
   margin-bottom: 10px;
 }
+.future {
+  background-color: #22212e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.future h2 {
+  font-size: 40px;
+}
+
+.future h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .social {
   display: flex;
   align-items: flex-end; /* Align to the bottom */
