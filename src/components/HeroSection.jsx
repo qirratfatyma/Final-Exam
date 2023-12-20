@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../assets/img/image-1.png";
 import Node from "../assets/img/node.png";
 import php from "../assets/img/php.png";
 import react from "../assets/img/react.png";
@@ -11,6 +10,7 @@ import second from "../assets/img/second.png";
 import third from "../assets/img/third.png";
 import last from "../assets/img/last.png";
 import { Link } from "react-router-dom";
+import imgi from "../assets/img/imgi.png"
 
 const Herosection = () => {
   return (
@@ -25,6 +25,12 @@ const Herosection = () => {
               <h4>Unlock the blockchain potential to create Web3 Applications</h4>
             </div>
             </div>
+            <div className="video-container">
+      <div className="play-button">
+        <span className="play-icon"></span>
+      </div>
+      <img src="imgi" alt="midimage"/>
+    </div>
         </div>
       </section>
       <br></br>
