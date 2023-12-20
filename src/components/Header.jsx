@@ -10,18 +10,17 @@ function BasicExample() {
       <Container>
         <Navbar.Brand>
           <Link to={"/"} className="navbar-title">
-            <img src={logo} alt="logo" />
-            ExpertiseLink{" "}
+            <img src={logo} alt="yeslogo"/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-section">
             <Link to="/HeroSection" className="navbar-elements">
-              <h3>Home</h3>
+              <h3>Web3Makr</h3>
             </Link>
             <Link to="/Skills" className="navbar-elements">
-              <h3>Skills</h3>
+              <h3>White Paper</h3>
             </Link>
             <Link to="/Contact" className="navbar-elements">
               <h3>Contact Us</h3>
