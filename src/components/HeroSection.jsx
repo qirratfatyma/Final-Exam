@@ -14,26 +14,17 @@ import { Link } from "react-router-dom";
 
 const Herosection = () => {
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div >
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
           <div className="row g-2">
-            <div className="col-sm-12 col-lg-6 col-md-6">
-              <img src={heroImage} alt="Hero" className="Hero-img" />
+            <div className="col-sm-12 col-lg-12 col-md-12">
+              <b><h1>Web3Makr Redefinng</h1>
+              <h2>How You Create</h2></b>
+              <h4>Unlock the blockchain potential to create Web3 Applications</h4>
             </div>
-            <div className="col-sm-12 col-lg-6 col-md-6 Hero-text">
-              <br></br>
-              <h1>ExpertiseLink</h1>
-              <br></br>
-              <p>
-                The ultimate hub for knowledge exchange! Unleash your expertise
-                and join a vibrant community where learning knows no bounds.
-                Swap skills, forge connections, and elevate your mastery in a
-                collaborative ecosystem like never before.
-              </p>
             </div>
-          </div>
         </div>
       </section>
       <br></br>

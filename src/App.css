@@ -11,7 +11,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans&display=swap");
 body {
-  background-color: var(--primary-color) !important;
+  background-color: linear-gradient(to right, #437481,#865A33, #4D2951) !important;
 }
 
 h1 {
@@ -37,50 +37,49 @@ h4 {
 }
 
 .navbar img {
-  width: 72px;
+  width: 100px;
   height: 68px;
-  mix-blend-mode: color-burn;
+ 
 }
 
 .navbar-title {
-  font-size: 32px;
-  letter-spacing: 5px;
+  font-size: 16px;
+  letter-spacing: 0.5rem;
   color: white;
   text-decoration: none;
   margin-left: -4rem;
 }
 
 .navbar-section {
-  margin-left: 4rem;
+  margin-left: 10rem;
   box-sizing: border-box;
 }
 
 .navbar-elements {
-  display: flex;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
   margin-top: 5px;
   color: white;
   text-decoration: none;
-  margin-right: 3rem;
+  margin-left: 4rem;
+  padding: 10px;
 }
 
-.navbar-elements:hover {
-  color: var(--secondary-color);
-}
+
 
 .navbar-elements:focus {
   color: var(--secondary-color);
 }
 
 .navbar-elements h3 {
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 .navbar-btn {
-  background-color: var(--btn-color) !important;
-  width: 6rem !important;
+  background: linear-gradient(to right, #437481,#865A33, #4D2951) !important;
+  width: 15rem !important;
+  height: 3rem !important; 
   color: white !important;
-  border-radius: 40px !important;
   margin-left: 1rem !important;
 }
 
@@ -105,9 +104,10 @@ h4 {
 /* HeroSection */
 
 .hero-section {
+  background: linear-gradient(to right, #437481, #865A33, #4D2951) !important;
   padding-top: 2rem;
+  color: #ffffff;
 }
-
 .Hero-img {
   width: 100%;
   height: auto;
@@ -121,7 +121,7 @@ h4 {
 }
 
 .Hero-text h1 {
-  color: var(--btn-color);
+  color:#ffffff;
   font-family: var(--secondry-font);
 }
 

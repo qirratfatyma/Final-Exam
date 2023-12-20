@@ -23,17 +23,17 @@ function BasicExample() {
               <h3>White Paper</h3>
             </Link>
             <Link to="/Contact" className="navbar-elements">
-              <h3>Contact Us</h3>
+              <h3>Services</h3>
             </Link>
             <Link to="/Documentation" className="navbar-elements">
-              <h3>Documentation</h3>
+              <h3>Tools</h3>
+            </Link>
+            <Link to="/Documentation" className="navbar-elements">
+              <h3>Contact Us</h3>
             </Link>
           </Nav>
           <Link to="/Login">
-            <button className="btn navbar-btn">Login</button>
-          </Link>
-          <Link to="/Signup">
-            <button className="btn navbar-btn">Signup</button>
+            <button className="btn navbar-btn"><b>START FOR FREE</b></button>
           </Link>
         </Navbar.Collapse>
       </Container>
