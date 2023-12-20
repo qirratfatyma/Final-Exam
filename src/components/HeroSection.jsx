@@ -9,7 +9,7 @@ import moralis from "../assets/img/moralis.png";
 import solidity from "../assets/img/solidity.png";
 import ether from "../assets/img/ether.png";
 import hardhat from "../assets/img/hardhat.png";
-
+import Nav from 'react-bootstrap/Nav';
 
 const Herosection = () => {
   return (
@@ -67,19 +67,15 @@ const Herosection = () => {
           Web3Makr allows you to incorporate top ranked blockchain platforms
           into your work through the drag and drop feature.
         </h4>
-        <div className="mt-5">
+  <div className="mt-5">
           <Container>
             <Row>
               <Col sm={12} md={12} lg={4} style={{ textAlign: "left" }}>
-                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
-                  Multichain
-                </h3>
-                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
-                  Dashboard
-                </h3>
-                <h3 style={{ marginBottom: "5rem", fontSize: "2.5rem" }}>
-                  Tool
-                </h3>
+              <Nav defaultActiveKey="/home" className="flex-column">
+      <Nav.Link href="/home" style={{ marginBottom: "5rem", fontSize: "2.5rem", color: "white" }}>Multichain</Nav.Link>
+      <Nav.Link eventKey="link-1" style={{ marginBottom: "5rem", fontSize: "2.5rem", color: "white" }}>Tools</Nav.Link>
+      <Nav.Link eventKey="link-2" style={{ marginBottom: "5rem", fontSize: "2.5rem", color: "white"}}>DashBoard</Nav.Link>
+    </Nav>
               </Col>
               <Col sm={12} md={12} lg={8}>
                 <div className="images" style={{ display: "flex" }}>
@@ -160,11 +156,13 @@ const Herosection = () => {
                 </div>
               </Col>
             </Row>
+
           </Container>
         </div>
       </div>
+      
     </div>
-
+    
     </div>
   );
 };
