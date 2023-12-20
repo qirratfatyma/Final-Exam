@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #e5cedc;
+  --primary-color: #110915;
   --secondary-color: #b04863;
   --btn-color: #6a3f3e;
   --btn-hover: #865555;
@@ -7,6 +7,9 @@
   --primary-font: "Poppins", sans-serif;
   --secondry-font: "Work Sans", sans-serif;
 }
+
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans&display=swap");
 body {
